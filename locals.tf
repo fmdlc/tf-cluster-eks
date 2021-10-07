@@ -9,7 +9,7 @@ locals {
   }
 
   node_group_node_count_map = {
-    node-group-0 = var.environment == "prod" ? 5 : 3,
+    node-group-0 = var.environment == "prod" ? 7 : 5,
     node-group-1 = var.environment == "prod" ? 1 : 1,
   }
 

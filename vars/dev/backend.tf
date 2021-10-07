@@ -1,2 +1,5 @@
-workspaces { name = "gitops-dev" }
+hostname = "app.terraform.io"
 organization = "tty0"
+workspaces { 
+    name = "gitops-dev" 
+}
